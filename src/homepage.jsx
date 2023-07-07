@@ -2,6 +2,7 @@ import Navbar2 from "./components/Navbar2"
 import Card from "./components/card"
 import CuadroInicio from "./components/cuadroInicio"
 import Navbar from "./components/Navbar"
+import Footer from "./components/footer"
 
 
 
@@ -27,6 +28,9 @@ export default function HomePage() {
                     <Card imagen={"https://images.unsplash.com/photo-1551260627-fd1b6daa6224?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGFyZ2V0YXMlMjBiYW5jYXJpYXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"} nombre="Metodo de pago" />
                 </div>
             </div>
+            <footer>
+                <Footer/>
+            </footer>
         </div>
     )
 }
