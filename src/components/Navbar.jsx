@@ -19,8 +19,16 @@ export default function Navbar() {
                     <div className="fixed top-12 px-[54rem] text-4xl py-2 ">
                         <div className="flex flex-row gap-20">
                             <Link to={"/"} className="text-white hover:text-yellow-600">Inicio</Link>
-                            <box-icon name='user-circle' type='solid' color='rgba(239,230,230,0.98)' size='lg' ></box-icon>
-                            <box-icon name='cart-alt' color='rgba(239,230,230,0.98)' size='lg'></box-icon>
+                            <div className="flex flex-col">
+                                <box-icon name='user-circle' type='solid' color='rgba(239,230,230,0.98)' size='lg' ></box-icon>
+                            <Link to={"/perfil"} className="text-white text-xs px-3">Perfil</Link>
+                            </div>
+                            <div className="flex flex-col">
+                                <box-icon name='cart-alt' color='rgba(239,230,230,0.98)' size='lg'></box-icon>
+                                <Link to={"/perfil"} className="text-white text-xs px-3">Carrito</Link>
+                            </div>
+                            
+                            
                         </div>
                     </div>
                 </div>

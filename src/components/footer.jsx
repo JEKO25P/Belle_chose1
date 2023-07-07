@@ -27,10 +27,10 @@ export default function Footer() {
                 <h3 className="text-2xl flex flex-row px-20">Ayuda</h3>
                 <div className="flex flex-row gap-4">
                     <div>
-                        <Link className="text-xl text-white hover:text-yellow-600">Terminos y <br /> Condiciones</Link>
+                        <Link to={"/"} className="text-xl text-white hover:text-yellow-600">Terminos y <br /> Condiciones</Link>
                     </div>
                     <div>
-                        <Link className="text-xl text-white hover:text-yellow-600">Preguntas <br />Frecuentes</Link>
+                        <Link to={"/"} className="text-xl text-white hover:text-yellow-600">Preguntas <br />Frecuentes</Link>
                     </div>
                 </div>
             </div>

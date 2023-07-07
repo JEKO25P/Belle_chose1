@@ -48,34 +48,6 @@ export const routes = createBrowserRouter([
         element: <HomePage/>
     },
     {
-        path: "/cuadroinicio",
-        element: <CuadroInicio/>
-    },
-    {
-        path: "/navbar",
-        element: <Navbar/>
-    },
-    {
-        path: "/navbar2",
-        element: <Navbar2/>
-    },
-    {
-        path: "/navbar3",
-        element: <Navbar3/>
-    },
-    {
-        path: "/footer",
-        element: <Footer/>
-    },
-    {
-        path: "/fondo",
-        element: <Fondo/>
-    },
-    {
-        path: "/roundcards",
-        element: <RoundCards/>
-    },
-    {
         path: "/busqueda",
         element: <Busqueda/>
     },
