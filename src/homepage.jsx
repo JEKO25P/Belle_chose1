@@ -1,6 +1,6 @@
 import Navbar2 from "./components/Navbar2"
 import Card from "./components/card"
-import CuadroInicio from "./components/cuadroInicio"
+import CuadroInicio from "./components/card2"
 import Navbar from "./components/Navbar"
 import Footer from "./components/footer"
 
@@ -11,7 +11,7 @@ export default function HomePage() {
     return (
         <div>
             <div>
-                <Navbar/>
+                <Navbar />
             </div>
             <div>
                 <div className=" bg-yellow-600 h-[34rem] fixed top-32 w-[90rem]"></div>
@@ -32,7 +32,9 @@ export default function HomePage() {
                 <Footer/>
             </footer>
         </div>
+
     )
 }
 
 //justify-center justify-between qiutamos esto que nos daba error
+

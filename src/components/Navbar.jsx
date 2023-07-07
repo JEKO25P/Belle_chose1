@@ -8,7 +8,7 @@ export default function Navbar() {
                     <div>
                         <div className="flex flex-row border-2 p-2 rounded-xl gap-2">
                             <box-icon name='search-alt' color='rgba(239,230,230,0.98)' ></box-icon>
-                            <input className="bg-white" type="search" placeholder="Buscar"></input>
+                            <input className="bg-white text-black" type="search" placeholder="Buscar"></input>
                         </div>
                     </div>
                     <div className="items-center px-[35rem] fixed top-0">
